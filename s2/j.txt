@@ -1,0 +1,3 @@
+variance
+standard deviation (enheraf meyar)
+anything more than 2xSTD is noise

@@ -1,0 +1,10 @@
+python -m pip install --upgrade pip
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install openpyxl
+
+import numpy as np
+import pandas as pd
+
+import matplotlib.pyplot as plt
