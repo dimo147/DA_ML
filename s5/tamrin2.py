@@ -4,10 +4,10 @@ wiich is the best parameter to predict close (open, low, high, volume)
 week day with highest 
 '''
 import numpy as np
-from matplotlib import pyplot as plt
-from sklearn.metrics import mean_squared_error
-from sklearn.linear_model import LinearRegression
 import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn.linear_model import LinearRegression
+
 df = pd.read_csv("BTC-USD.csv")
 
 X = df[["Low"]]
