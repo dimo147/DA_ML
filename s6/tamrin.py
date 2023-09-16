@@ -18,7 +18,7 @@ for i in range(len(features)):
     plt.scatter(np.arange(len(x[features[i]].values)), x[features[i]])
     plt.title(features[i])
 
-plt.show()
+# plt.show()
 
 scores = {}
 print("Total Score: ",total_score)
