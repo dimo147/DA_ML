@@ -7,3 +7,5 @@
  - sickit-learn
  - matplotlib
  - scipy
+ - keras
+ - tensorflow
