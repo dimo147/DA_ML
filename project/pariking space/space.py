@@ -30,4 +30,3 @@ while True:
     cv2.setMouseCallback("image", mouseClick)
     cv2.waitKey(1)
 
-print("code executed")
