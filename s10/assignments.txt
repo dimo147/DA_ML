@@ -1,0 +1,2 @@
+viola jons on different objects
+compare knn svc logistic
