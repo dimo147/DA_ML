@@ -10,16 +10,12 @@ with open('CarParkPos', 'rb') as f:
 
 width, height = 107, 48
 
-
 def checkParkingSpace(imgPro):
-
     spaceCounter = 0
 
     for pos in posList:
         x, y = pos
-
         imgCrop = imgPro[y:y+height,x:x+width]
-
         count = cv2.countNonZero(imgCrop)
 
         if count < 900:
